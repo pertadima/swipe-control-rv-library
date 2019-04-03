@@ -23,6 +23,7 @@ Add depedencies to your build.gradle module level
 ```
 # How to use
 
+Default use :
 ```sh
   val swipeHandler = object : SwipeControl(
                 this@MainActivity,
@@ -40,4 +41,16 @@ Add depedencies to your build.gradle module level
                     }
                 }
             }
+```
+
+Change background color (add this code in constructor):
+```sh
+    leftBackgroundColor = "#000000"
+    rightBackgroundColor = "#000000"
+```
+
+Add to recyclerview :
+```sh
+    val itemTouchHelper = ItemTouchHelper(swipeHandler)
+    itemTouchHelper.attachToRecyclerView(rv_name)
 ```
