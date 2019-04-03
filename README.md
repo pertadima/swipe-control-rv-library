@@ -2,6 +2,10 @@
 Library to make recyclerview swipeable
 
 
+| Current Version | Status |
+| ------ | ------ |
+| 0.1.0 | Stable |
+
 # Add to your android project
 
 Add to your build.gradle project level
