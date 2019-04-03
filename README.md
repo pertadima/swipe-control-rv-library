@@ -47,7 +47,7 @@ Default use :
             }
 ```
 
-Change background color (add this code in constructor):
+Change background color (add this code to the constructor):
 ```sh
     leftBackgroundColor = "#000000"
     rightBackgroundColor = "#000000"
@@ -58,3 +58,9 @@ Add to recyclerview :
     val itemTouchHelper = ItemTouchHelper(swipeHandler)
     itemTouchHelper.attachToRecyclerView(rv_name)
 ```
+
+#Screenshoot :
+![screenshoots](http://i66.tinypic.com/2sbs5qe.png)
+
+#Implementation :
+[Room-Kotlin](https://github.com/pertadima/room-kotlin-example)
