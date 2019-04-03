@@ -59,8 +59,8 @@ Add to recyclerview :
     itemTouchHelper.attachToRecyclerView(rv_name)
 ```
 
-#Screenshoot :
+# Screenshoot :
 ![screenshoots](http://i66.tinypic.com/2sbs5qe.png)
 
-#Implementation :
+# Implementation :
 [Room-Kotlin](https://github.com/pertadima/room-kotlin-example)
