@@ -2,7 +2,7 @@
 Library to make recyclerview swipeable
 
 
-#Add to your android project
+# Add to your android project
 
 Add to your build.gradle project level
 
@@ -19,6 +19,5 @@ allprojects {
 Add depedencies to your build.gradle module level
 
 ```sh
- implementation "com.github.pertadima:swipe-control-rv-library:$lib_version
-"
+ implementation "com.github.pertadima:swipe-control-rv-library:$lib_version"
 ```
